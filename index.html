@@ -8,14 +8,32 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     
 </head>
+<style>
+        .footer{
+            position: absolute  ;
+            left: 0; 
+            bottom: 0; 
+            text-align: left;
+            background-color:rgb(235, 231, 231);
+            width: 100%;
+            margin-top: 0;
+            padding: 1rem;
+            font-size: small;
+    
+            }
+        .a:hover{
+            text-decoration: underline;
+        }
+        </style>
 <body>
+    
     <nav class="level" style="padding:5px 5px;">
         <div class="level-left">
 
         </div>
         <div class="level-right">
-            <p class="level-item" style="text-decoration:underline">Gmail</p>
-            <p class="level-item" style="text-decoration:underline">Images</p>
+            <a class="level-item" >Gmail</a>
+            <a class="level-item" >Images  </a>
             <p class="level-item"><i class="material-icons">apps</i> </p> 
             <p class="level-item"><a class="button is-link">Log In</a> </p>
         </div>
@@ -26,11 +44,39 @@
                 <img style="display: block; margin-left: auto; margin-right: auto; width: 40%;" src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" >
             </div>
     </div>
-    <div class="control" style="position:relative; width: 484px; margin-left: auto; margin-right: auto; box-shadow: 0 3px 8px 0;" >
-        <input class="input" type="text" maxlength="2048" aria-autocomplete="both" aria-haspopup="false">
+    <div class="control" style="position:relative; width: 484px; margin-left: auto; margin-right: auto; box-shadow: 0 3px 3px 0;" >
+        <input class="input" maxlength="2048" aria-autocomplete="both" aria-haspopup="false">
     </div>
-
-
+    <div class="but" style="padding: 20px 0">
+        <center>
+            <a href="#" class="button default">Goolge Search</a>
+            <a href="#" class="button default">I'm Feeling Lucky</a>
+        </center>
+    </div>
+    
+    <div class="footer">
+            <nav class="level">
+                    <div class="level-left">
+                        <a class="level-item">México</a>
+                    </div>
+                    <div class="level-right">
+                       
+                    </div>
+                </nav>
+        <nav class="level">
+                <div class="level-left">
+                    <a class="level-item" >Advertising</a>
+                    <a class="level-item" >Business</a>
+                    <a class="level-item">About</a> 
+                    
+                </div>
+                <div class="level-right">
+                    <a class="level-item" >Privacy</a>
+                    <a class="level-item" >Terms</a>
+                    <a class="level-item"> Settings</a> 
+                </div>
+            </nav>
+    </div>
 
     
 </body>
