@@ -1,10 +1,6 @@
 # google_homepage
-trying to copy the google homepage
-
 this is an assignmet of the odin project
 
-so... let's try to do it
+Took me a while but its finished...
 
-wish me luck
-
-up to the search bar....
+(:
